@@ -1,0 +1,63 @@
+body {
+    margin-left: 10px;
+    padding: 20px;
+}
+
+div#logo {
+   text-align: center;
+}
+
+img {
+    text-align: center;
+    margin: 0 auto;
+    max-width: 200px;
+    padding: 5px;
+    border-radius: 50%;
+}
+
+
+div#create-roombtn {
+    vertical-align: middle;
+    text-align: center;
+    font-weight: bolder;
+    width: 120px;
+    height: 30px;
+    color: orange;
+    margin: 0 0 10px 20px;
+    padding-top: 10px;
+    border-radius: 10%;
+    background-color: purple;
+}
+
+h1 {
+    color: purple;
+    font-size: 50px;
+    text-align: left;
+}
+
+h3.room {
+    vertical-align: middle;
+    margin-left: 30px;
+    color: black;
+}
+
+hr {
+    margin: 10px 0 10px 0;
+}
+
+span, small {
+    margin-left: 30px;
+}
+
+a#room {
+    color: orange;
+    margin: 0 auto;
+    padding-top: 10px;
+    vertical-align: middle;
+}
+
+a.edit {
+    color: purple;
+    font-weight: bolder;
+    margin-left: 30px;
+}
