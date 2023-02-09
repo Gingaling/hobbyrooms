@@ -3,6 +3,11 @@ body {
     padding: 20px;
 }
 
+div.home-container {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+}
+
 div#logo {
    text-align: center;
 }
@@ -46,7 +51,8 @@ hr {
 }
 
 span, small {
-    margin-left: 30px;
+    display: block;
+    margin: 15px 0 0 30px;
 }
 
 a#room {
@@ -56,8 +62,16 @@ a#room {
     vertical-align: middle;
 }
 
-a.edit {
+a#edit {
     color: purple;
     font-weight: bolder;
-    margin-left: 30px;
+    margin: 0 30px 5px 20px;
+}
+
+a#cancel {
+    margin-left: 20px;
+}
+
+input {
+    margin: 20px 30px 0 10px;
 }
