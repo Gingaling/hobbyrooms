@@ -30,3 +30,10 @@ class Message(models.Model):
 
     def __str__(self):
         return self.body[0:50]
+    
+class Misc(models.Model):
+    name = models.CharField(max_length=200)
+    value = models.CharField(max_length=200)
+    
+    def __str__(self):
+        return self.name
