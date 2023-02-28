@@ -1,4 +1,6 @@
 {% extends 'main.html' %} {% block content %}
+<script src="https://accounts.google.com/gsi/client" async defer></script>
+
 <main class="auth layout">
 	{% if page == 'login' %}
 	<div class="container">
@@ -55,6 +57,22 @@
 				<div class="auth__action">
 					<p>Haven't signed up yet?</p>
 					<a href="{% url 'register' %}" class="btn btn--link">Sign Up</a>
+				</div>
+				<div id="g_id_onload"
+					data-client_id="628546069547-s2oa74esphmvbcc3nr2gijpgm7ij634o.apps.googleusercontent.com"
+					data-context="signin"
+					data-ux_mode="popup"
+					data-login_uri="http://127.0.0.1:8000/login"
+					data-auto_prompt="false">
+				</div>
+				
+				<div class="g_id_signin"
+					data-type="standard"
+					data-shape="pill"
+					data-theme="filled_blue"
+					data-text="signin_with"
+					data-size="large"
+					data-logo_alignment="left">
 				</div>
 			</div>
 		</div>
